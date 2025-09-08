@@ -13,3 +13,6 @@ for learning, quick reference, and sharing with other developers. 🚀
 - [Tips & Tricks](./tips.md)
 
 ---
+git add .
+git commit -m "commit“
+git push
