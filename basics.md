@@ -17,3 +17,21 @@ function Hello({ name }) {
 
 // Usage
 <Hello name="Yuki" />
+
+```
+---
+
+## 🔑 Props
+
+Props let you pass data from parent to child.
+
+```jsx
+function Welcome(props) {
+  return <h2>Welcome, {props.user}!</h2>;
+}
+
+<Welcome user="Alice" />
+
+````
+👉 Props are read-only. You cannot modify them inside the child component.
+
