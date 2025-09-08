@@ -13,6 +13,3 @@ for learning, quick reference, and sharing with other developers. 🚀
 - [Tips & Tricks](./tips.md)
 
 ---
-
-💡 このリポジトリは、私がReactを学ぶ過程でまとめたノートですが、  
-他の人にとっても「開発の助けになるチートシート」を目指しています。
