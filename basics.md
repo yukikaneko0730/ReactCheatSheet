@@ -264,14 +264,110 @@ import { Header } from "./Header";
 
 ---
 
+## 🟣 Default Props
+
+Give props default values when not provided.
+
+```jsx
+function Button({ label = "Click me" }) {
+  return <button>{label}</button>;
+}
+
+// Usage
+<Button /> // → renders "Click me"
+<Button label="Submit" /> // → renders "Submit"
+```
+
+---
+
+## 🟤 Destructuring Props
+
+A cleaner way to use props inside components.
+
+```jsx
+function Profile({ name, age }) {
+  return <p>{name} is {age} years old.</p>;
+}
+
+<Profile name="Alice" age={25} />
+```
+
+---
+
+## 👶 Children Prop
+
+Allows components to wrap other content.
+
+```jsx
+function Card({ children }) {
+  return <div className="card">{children}</div>;
+}
+
+// Usage
+<Card>
+  <h2>Title</h2>
+  <p>Content inside card</p>
+</Card>
+```
+
+---
+
+## 🟡 Rendering Nothing (null)
+
+Return null if you don’t want to render anything.
+
+```jsx
+function HiddenMessage({ show }) {
+  if (!show) return null;
+  return <p>Secret revealed!</p>;
+}
+```
+
+---
+
+## 🗝️ Keys Best Practice
+
+Use a unique id instead of array index for lists.
+
+```jsx
+const items = [
+  { id: 1, name: "Apple" },
+  { id: 2, name: "Banana" }
+];
+
+<ul>
+  {items.map((item) => (
+    <li key={item.id}>{item.name}</li>
+  ))}
+</ul>
+
+```
+
+---
+
+## 🗂️ File Naming Convention (Optional)
+
+Follow React conventions for file names.
+
+✔️ Good:  MyComponent.jsx
+❌ Bad:   mycomponent.jsx
+
+---
+
+
+
+
 ✨ **Quick Recap**
 
-- **Components** → Building blocks  
-- **Props** → Data from parent → child  
-- **State** → Internal data  
-- **Lists** → `.map()` with `key`  
-- **Conditional Rendering** → `? :` or `&&`  
-- **JSX** → One parent, camelCase attributes, `{}` for JS  
-- **Fragments** → `<> ... </>` instead of extra `<div>`  
-- **Events** → `onClick`, `onSubmit`, etc.  
-- **Imports/Exports** → Module structure  
+- **Components** → Reusable UI building blocks  
+- **Props** → Pass data from parent to child (read-only)  
+- **State** → Internal, mutable data for dynamic UI  
+- **Lists** → Use `.map()` with a unique `key`  
+- **Conditional Rendering** → Render with `? :` or `&&`  
+- **JSX** → One parent element, camelCase attributes, `{}` for JS expressions  
+- **Fragments** → Use `<> ... </>` instead of unnecessary `<div>`  
+- **Events** → Common handlers like `onClick`, `onSubmit`, etc.  
+- **Imports/Exports** → Organize modules with `default` and `named` exports  
+- **Default Props** → Provide fallback values for props  
+- **Children Prop** → Pass nested content between component tags  
+- **Keys** → Prefer stable unique IDs over array indexes  
