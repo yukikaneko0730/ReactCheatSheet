@@ -1,7 +1,7 @@
 # 🎨 React UI Snippets
 
 This section contains **commonly used UI code snippets** in React.  
-Perfect for building buttons, cards, modals, forms, and more. 🚀
+Perfect for building buttons, cards, modals, forms, and more. 
 
 ---
 

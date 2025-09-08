@@ -1,7 +1,7 @@
 # 🪝 React Hooks
 
 This section covers the **most commonly used React Hooks** — the core of modern React development.  
-Hooks let you use state, lifecycle methods, and more without writing class components. 🚀
+Hooks let you use state, lifecycle methods, and more without writing class components. 
 
 ---
 

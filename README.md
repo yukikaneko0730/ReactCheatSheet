@@ -12,6 +12,7 @@ designed for **learning, quick reference, and sharing with other developers**. �
 - 🎨 **UI Snippets** → Buttons, cards, modals, forms, charts, etc.  
 - 🧩 **Patterns** → Controlled vs uncontrolled, lifting state up, HOCs, custom hooks  
 - 🛠 **Tips & Tricks** → Local storage, debounce, env variables, debugging tools  
+- 📘 **TypeScript** → Strongly typed props, state, events, and hooks  
 
 ---
 
@@ -22,6 +23,7 @@ designed for **learning, quick reference, and sharing with other developers**. �
 - [UI Snippets](./ui-snippets.md)  
 - [Patterns](./patterns.md)  
 - [Tips & Tricks](./tips.md)  
+- [TypeScript](./typescript.md)  
 
 ---
 

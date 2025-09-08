@@ -1,6 +1,6 @@
 # 🛠 React Tips & Tricks
 
-This section covers **useful tips, patterns, and best practices** that make React development smoother and safer. 🚀
+This section covers **useful tips, patterns, and best practices** that make React development smoother and safer. 
 
 ---
 

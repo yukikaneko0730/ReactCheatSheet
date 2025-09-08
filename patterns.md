@@ -1,7 +1,7 @@
 # 🧩 React Patterns
 
 This section covers **common React patterns** that improve reusability, maintainability, and clarity in code.  
-These are not frameworks — just proven ways to structure components and logic. 🚀
+These are not frameworks — just proven ways to structure components and logic. 
 
 ---
 

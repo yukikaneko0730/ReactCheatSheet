@@ -1,7 +1,7 @@
 # ⚛️ React Basics
 
 This section covers the **fundamentals of React** — JSX, props, state, and rendering.  
-Perfect for a quick refresher or for beginners starting with React. 🚀
+Perfect for a quick refresher or for beginners starting with React. 
 
 ---
 
