@@ -26,12 +26,3 @@ designed for **learning, quick reference, and sharing with other developers**. �
 - [TypeScript](./typescript.md)  
 
 ---
-
-## 🤔 How to Use
-
-Clone this repo and use it as a **reference** while coding in React.  
-It’s designed to be **developer-friendly** with copy-paste-ready examples.
-
-```bash
-git clone https://github.com/yourusername/react-cheat-sheet.git
-cd react-cheat-sheet
